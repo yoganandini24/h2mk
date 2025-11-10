@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2MK IT Services</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+
+<!-- ANIMATED PARTICLE BACKGROUND -->
+<canvas id="particle-canvas"></canvas>
+
+<header>
+    <img src="logo.jpg" class="logo" alt="H2MK Logo">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#specialties">Specialties</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="new-hero">
+
+    <!-- FLOATING ORGANIC BLOBS -->
+    <div class="blob-container">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <div class="hero-inner">
+
+        <!-- LEFT CONTENT -->
+        <div class="hero-info">
+            <h1>Transforming Engineering and Operations with <span>QA Automation & DevOps Excellence</span></h1>
+            <p>
+                We help organizations build scalable, secure, and high-performance engineering pipelines. 
+                From cloud infrastructure to automated testing and CI/CD workflows — our experts ensure faster releases
+                with greater reliability.
+            </p>
+            <button class="hero-cta" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+            CONNECT WITH US
+            </button>
+
+        </div>
+
+        <!-- RIGHT VISUAL -->
+        <div class="hero-right">
+            <div class="bot-wrapper">
+                <img src="hero-bot.png" class="hero-avatar" alt="AI Automation Bot">
+                <div class="glow-circle"></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services" class="services-section">
+
+    <h2 class="section-title">Our Core Services</h2>
+    <p class="section-subtitle">Engineering Excellence to Accelerate Your Digital Transformation</p>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>QA Automation & Test Engineering</h3>
+            <p>We build robust automation test frameworks for Web, API and Mobile environments.</p>
+            <ul>
+                <li>Playwright / Cypress / Selenium</li>
+                <li>API & Microservices Testing</li>
+                <li>End-to-End CI Test Pipelines</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>DevOps Engineering</h3>
+            <p>Enable continuous delivery with scalable pipelines and GitOps-driven environments.</p>
+            <ul>
+                <li>CI/CD Pipeline Architecture</li>
+                <li>Docker, K8s & Container Orchestration</li>
+                <li>Security & Release Automation</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>Cloud Architecture & Implementation</h3>
+            <p>Design and deploy cloud-native systems leveraging AWS, GCP and serverless platforms.</p>
+            <ul>
+                <li>Cloud Migration & Optimization</li>
+                <li>Terraform & IaC Blueprinting</li>
+                <li>Multi-Cloud Deployments</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>AI-Powered Workflow Automation</h3>
+            <p>Accelerate delivery using AI-driven pipeline insights & predictive reliability.</p>
+            <ul>
+                <li>AI-based Test Generation</li>
+                <li>Release Risk Prediction Models</li>
+                <li>Self-Healing Pipelines</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SPECIALTIES -->
+<section id="specialties" class="section">
+    <h2>Technologies & Expertise</h2>
+
+    <div class="specialties-grid">
+        <div class="specialty-card"><img src="icons/aws.png"><p>AWS</p></div>
+        <div class="specialty-card"><img src="icons/gcp.png"><p>GCP</p></div>
+        <div class="specialty-card"><img src="icons/docker.png"><p>Docker</p></div>
+        <div class="specialty-card"><img src="icons/kubernetes.png"><p>Kubernetes</p></div>
+        <div class="specialty-card"><img src="icons/terraform.png"><p>Terraform</p></div>
+        <div class="specialty-card"><img src="icons/ansible.png"><p>Ansible</p></div>
+        <div class="specialty-card"><img src="icons/jenkins.png"><p>Jenkins</p></div>
+        <div class="specialty-card"><img src="icons/git.png"><p>Git</p></div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+
+    <div class="about-inner">
+
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+               At H2MK IT Services, we help organizations modernize the way they build, test, deploy, and operate software. 
+               We focus on engineering excellence — enabling teams to deliver faster, with higher quality, and greater reliability.
+
+            Our expertise spans QA Automation, DevOps Enablement, Cloud Architecture, and Intelligent Workflow Automation. 
+We combine hands-on delivery experience with industry best practices to create scalable and future-ready solutions.
+
+We believe that technology should simplify growth — not complicate it. 
+Our mission is to build systems that are efficient, maintainable, and aligned with your long-term vision.
+
+            </p>
+
+            <div class="mini-values">
+                <div class="mini-value-box">
+                    <h4>🚀 Engineering-Driven Delivery</h4>
+                    <h4>🤝 Long-Term Partnership</h4>
+                    <h4>💡 Innovation at the Core</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-section">
+            <h3>Meet Our Team</h3>
+            <div class="team-grid">
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png"><h4>A</h4><p>Cloud Architect</p></div>
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922566.png"><h4>B</h4><p>Automation Lead</p></div>
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922553.png"><h4>D</h4><p>DevOps Engineer</p></div>
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png"><h4>E</h4><p>Data Analyst</p></div>
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922566.png"><h4>F</h4><p>SWE</p></div>
+                <div class="team-card"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922553.png"><h4>G</h4><p>SDE</p></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <h2>Connect with us to know more about us.</h2>
+    <p class="contact-subtitle">We’d love to hear about your project ✨</p>
+
+    <div class="contact-container">
+    <div class="contact-info-box">
+        <p>Please reach out to us for any queries or collaboration opportunities.</p>
+
+        <ul class="contact-details">
+            <li>📍 Bangalore, Karnataka</li>
+            <li>📞 +91 63635 14021</li>
+            <li>✉️ work4h2mk@outlook.com</li>
+            <li>🔗 <a href="https://www.linkedin.com/company/h2mk-it-services/" target="_blank">Connect on LinkedIn</a></li>
+        </ul>
+    </div>
+    <div class="contact-glow"></div>
+</div>
+
+</section>
+
+<footer>
+    © 2025 H2MK IT Services • All Rights Reserved
+</footer>
+
+<script src="test.js"></script>
+</body>
+</html>
